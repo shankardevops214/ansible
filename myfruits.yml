@@ -1,0 +1,15 @@
+---
+ - hosts : all
+   tasks :
+     - name: i want to install git on ansible
+       apt:
+        name: git
+        state: present
+     - name: i want to install tree on ansible
+       apt: 
+        name: tree
+        state: present
+     - name: i want to install wget on ansible
+       apt:
+        name: wget
+        state: present
